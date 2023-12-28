@@ -66,7 +66,7 @@
     </header>
     <main>
         <section id="hero-section">
-            <div class="max-w-[950px] flex justify-center flex-col gap-10 text-center mx-auto py-10">
+            <div class="max-w-[950px] flex justify-center flex-col gap-10 text-center mx-auto py-10 m">
                 <h1 class="mt-10 font-extrabold text-7xl">Cloud Hosting Indonesia
                     untuk <span class="text-orange-500">Kesuksesan</span> Websitemu!
                 </h1>
@@ -82,7 +82,7 @@
             </div>
         </section>
         <section id="cek-domain">
-            <div class="flex justify-center flex-col text-center bg-orange-500 py-10 mt-10 text-white gap-5">
+            <div class="flex justify-center flex-col text-center bg-orange-500 py-10 my-32 text-white gap-5">
                 <h1 class="font-bold text-3xl">Cari Nama Domainmu</h1>
                 <p class="max-w-[550px] mx-auto text-center">Nama Domain digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling mencerminkan bisnis, produk, atau layanan Anda.</p>
                 <div class="flex justify-center items-center gap-x-4 text-black">
@@ -112,7 +112,7 @@
             </div>
         </section>
         <section id="domain-list">
-            <div class="flex justify-center flex-col text-center mx-14 my-10">
+            <div class="flex justify-center flex-col text-center mx-14 my-32">
                 <h1 class="text-4xl font-bold max-w-[500px] mx-auto">
                     Cloud Hosting Indonesia <span class="text-orange-500">Diskon Hingga 50%</span>
                 </h1>
@@ -263,7 +263,7 @@
         </section>
         <section id="layanan">
             <div class="bg-orange-50 flex justify-center items-center">
-                <div class="flex flex-col justify-center items-center my-14 gap-y-10">
+                <div class="flex flex-col justify-center items-center my-32 gap-y-10">
                     <h1 class="text-4xl font-bold">Lihat Juga Layanan Kami Yang Lain</h1>
                     <p class="text-normal w-[50%] font-extralight text-center">Optimalkan performa website bisnis Anda dengan berbagai layanan berkualitas dari Qwords</p>
                     <div class="flex gap-x-7">
@@ -293,7 +293,7 @@
             </div>
         </section>
         <section id="solution">
-            <div class="flex flex-col justify-center items-center my-14">
+            <div class="flex flex-col justify-center items-center my-32">
                 <div class="flex flex-col justify-center items-center gap-y-5">
                     <h1 class="text-4xl font-bold">Solusi Paket Hosting Terbaik dari Kami</h1>
                     <p class="w-[50%] text-center font-extralight">Kami menawarkan solusi paket hosting terbaik untuk segala kebutuhan website dan sistem Anda. Mulai dari blog hingga website bisnis dan perusahaan</p>
@@ -358,7 +358,7 @@
             </div>
         </section>
         <section id="komitmen">
-            <div class="flex flex-col justify-center items-center my-16 ">
+            <div class="flex flex-col justify-center items-center my-32">
                 <div class="flex flex-col justify-center items-center gap-y-6">
                     <h1 class="text-4xl font-bold">Komitmen Qwords</h1>
                     <p class="font-extralight">Berbagai alasan mengapa pelanggan memilih sewa hosting di Qwords</p>
@@ -401,12 +401,87 @@
                         <h1 class="font-bold text-xl">Tier 1 Network</h1>
                         <p class="font-extralight">Tier 1 Network merupakan jaringan dunia tanpa transit network, yang membuat jaringan lebih cepat serta jalur routing yang lebih pendek dan ketersediaan backup network.</p>
                     </div>
-                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                    <div class="flex flex-col justify-start items-start w-[400px] h-[305px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
                         <img src="{{asset('/assets/network.webp')}}" alt="call-img">
                         <h1 class="font-bold text-xl">Peering Network</h1>
                         <p class="font-extralight">Jaringan di Qwords terhubung langsung ke public peering seperti OpenIXP dan CDIX yang membuat latency atau waktu tunggu pengiriman data semakin kecil.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section id="jasa-web">
+            <div class="w-[1100px] bg-orange-100 rounded-3xl flex justify-center items-center my-32 gap-20 mx-auto p-10 ">
+                <div class="w-[50%] flex justify-center mx-auto">
+                    <img class="w-[70%] h-auto" src="{{asset('/assets/bw.webp')}}" alt="logo-bw">
+                </div>
+                <div class="flex flex-col w-[50%] gap-y-6">
+                    <h1 class="font-bold text-4xl"><span class="text-orange-500">Bikin website impian</span> dengan mudah disini hanya 1 jutaan</h1>
+                    <p class="text-sm font-extralight">Bikin website impian include paket hosting Indonesia terbaik hanya 1 jutaan Jasa pembuatan website profesional untuk Perusahaan, Bisnis & UKM. Bikin Website Impian dengan mudah di sini, desain website elegan dan mudah dikelola</p>
+                    <button class="rounded-3xl bg-orange-500 text-white max-w-[200px] py-2 px-5 font-semibold text-sm">Lihat Selengkapnya</button>
+                </div>
+            </div>
+        </section>
+        <section id="trust-company">
+            <div class="flex flex-col justify-center items-center gap-14 my-32">
+                <h1 class="font-bold text-4xl">Telah Dipercaya oleh 45.000+ Pelanggan Aktif</h1>
+                <div class="flex justify-center items-center gap-x-5">
+                    <img class="w-[12%]" src="{{asset('/assets/Cimory.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/Forisa.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/Elsheskin.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/icon.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/Horison.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/MD.webp')}}" alt="Cimory-img">
+                </div>
+                <a class="flex font-semibold text-orange-500" href="#">Dan Masih Banyak yang Lainnya <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt=""></span></a>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-14 my-32">
+                <h1 class="font-bold text-4xl">Partner Kami</h1>
+                <div class="flex justify-center items-center gap-x-5">
+                    <img class="w-[12%]" src="{{asset('/assets/Google.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/Cpanel.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/Idea.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/Archi.webp')}}" alt="Cimory-img">
+                    <img class="w-[12%]" src="{{asset('/assets/dotid.webp')}}" alt="Cimory-img">
+                </div>
+                <a class="flex font-semibold text-orange-500" href="#">Lihat Semua Partner <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt=""></span></a>
+            </div>
+        </section>
+        <section id="garansi">
+            <div class="flex justify-center items-center p-32 bg-orange-100">
+                <div class="w-[50%]">
+                    <img src="{{asset('/assets/guarantee.webp')}}" alt="guarante-img">
+                </div>
+                <div class="flex flex-col justify-center gap-y-10 w-[50%]">
+                    <h1 class="text-5xl font-bold">Garansi 30 Hari <span class="text-orange-500">Uang Kembali</span></h1>
+                    <p class="font-extralight text-sm">Untuk menjaga kepuasan pelanggan, kami memberikan garansi uang kembali yang berlaku hingga 30 hari setelah hosting aktif.</p>
+                </div>
+            </div>
+        </section>
+        <section id="testi">
+            <div class="flex flex-col justify-center items-center my-32 max-w-[1100px] mx-auto gap-y-10">
+                <h1 class="text-4xl font-bold">Apa Kata Mereka?</h1>
+                <p class="w-[50%] font-extralight text-sm text-center">Apa kata mereka yang sudah menggunakan layanan web hosting Indonesia dari Qwords? Simak pengalaman mereka yang telah membuktikan sendiri fitur dari layanan kami.</p>
+            </div>
+        </section>
+        <section id="liputan-payment">
+            <div class="flex flex-col justify-center items-center gap-14 my-32">
+                <h1 class="font-bold text-4xl">Diliput Oleh</h1>
+                <div class="flex justify-center items-center w-[80%] flex-wrap">
+                    <img src="{{asset('/assets/Detikcom.webp')}}" alt="Cimory-img">
+                    <img src="{{asset('/assets/Liputan6.webp')}}" alt="Cimory-img">
+                    <img src="{{asset('/assets/TribunJogja.webp')}}" alt="Cimory-img">
+                    <img src="{{asset('/assets/antara.webp')}}" alt="Cimory-img">
+                    <img src="{{asset('/assets/RM.webp')}}" alt="Cimory-img">
+                    <img src="{{asset('/assets/KoranBernas.webp')}}" alt="Cimory-img">
+                </div>
+                <a class="flex font-semibold text-orange-500" href="#">Lihat Semua Liputan <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt="right-img"></span></a>
+            </div>
+            <div class="flex flex-col justify-center items-center gap-14 my-32">
+                <h1 class="w-[50%] text-center font-bold text-xl">Pilih metode e-payment otomatis. Layanan Domain, Hosting, VPS langsung aktif tanpa perlu konfirmasi bayar.</h1>
+                <div class="flex justify-center items-center gap-x-5">
+                    <img class="w-[80%]" src="{{asset('/assets/all-payment.webp')}}" alt="all-payment">
+                </div>
+                <a class="flex font-semibold text-orange-500" href="#">Lihat Panduan Pembayaran <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt="right-img"></span></a>
             </div>
         </section>
     </main>
