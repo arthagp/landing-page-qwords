@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Qwords</title>
+    <title>Qwords : Cloud Web Hosting Indonesia Akses Cepat Aman</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@300;400;600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Styles -->
     @vite('resources/css/app.css')
 </head>
@@ -111,8 +111,303 @@
                 </div>
             </div>
         </section>
-        <section>
-            
+        <section id="domain-list">
+            <div class="flex justify-center flex-col text-center mx-14 my-10">
+                <h1 class="text-4xl font-bold max-w-[500px] mx-auto">
+                    Cloud Hosting Indonesia <span class="text-orange-500">Diskon Hingga 50%</span>
+                </h1>
+                <p class="my-10 font-extralight">Layanan cloud hosting indonesia terbaik dengan teknologi andal untuk website anda</p>
+                <div class="flex justify-around items-center">
+                    <div id="VCH1" class="p-3 rounded-xl shadow-2xl w-[300px]">
+                        <h3 class="text-start p-1 font-medium">Value Cloud Hosting</h3>
+                        <h1 class="text-start p-1 font-bold text-2xl">VCH1</h1>
+                        <p class="text-start p-1 line-through opacity-50">Rp 24.500</p>
+                        <p class="text-start p-1 text-3xl text-orange-500 font-bold">Rp 14.500</p>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/disk.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Disk</p>
+                                <h3 class="text-start font-bold">3 GB</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/bandwidth.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Bandwith</p>
+                                <h3 class="text-start font-bold">Unlimited</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/cpu.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Core CPU</p>
+                                <h3 class="text-start font-bold">0.5 Core</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/addon.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Addon / parked domain</p>
+                                <h3 class="text-start font-bold">No</h3>
+                            </div>
+                        </div>
+                        <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 px-12 m-2">Pesan Sekarang</button>
+                    </div>
+                    <div id="Signature" class="p-3 rounded-xl shadow-2xl w-[300px]">
+                        <h3 class="text-start p-1 font-medium">Unlimited Hosting</h3>
+                        <h1 class="text-start p-1 font-bold text-2xl">Signature</h1>
+                        <p class="text-start p-1 line-through opacity-50">Rp 109.000</p>
+                        <p class="text-start p-1 text-3xl text-orange-500 font-bold">Rp 89.900</p>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/disk.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Disk</p>
+                                <h3 class="text-start font-bold">Unlimited</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/bandwidth.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Bandwith</p>
+                                <h3 class="text-start font-bold">Unlimited</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/cpu.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Core CPU</p>
+                                <h3 class="text-start font-bold">1 Core</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/addon.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Addon / parked domain</p>
+                                <h3 class="text-start font-bold">5/5</h3>
+                            </div>
+                        </div>
+                        <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 px-12 m-2">Pesan Sekarang</button>
+                    </div>
+                    <div id="HPCH" class="p-3 rounded-xl shadow-2xl w-[300px]">
+                        <h3 class="text-start p-1 font-medium">High Performance</h3>
+                        <h1 class="text-start p-1 font-bold text-2xl">HPCH Bisnis 1</h1>
+                        <p class="text-start p-1 line-through opacity-50">Rp 90.000</p>
+                        <p class="text-start p-1 text-3xl text-orange-500 font-bold">Rp 79.000</p>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/disk.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Disk</p>
+                                <h3 class="text-start font-bold">3 GB</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/bandwidth.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Bandwith</p>
+                                <h3 class="text-start font-bold">Unlimited</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/cpu.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Core CPU</p>
+                                <h3 class="text-start font-bold">1 Core</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/addon.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Addon / parked domain</p>
+                                <h3 class="text-start font-bold">-</h3>
+                            </div>
+                        </div>
+                        <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 px-12 m-2">Pesan Sekarang</button>
+                    </div>
+                    <div id="VPS" class="p-3 rounded-xl shadow-2xl w-[300px]">
+                        <h3 class="text-start p-1 font-medium">Cloud VPS KVM SSD</h3>
+                        <h1 class="text-start p-1 font-bold text-2xl">VPS SC1</h1>
+                        <p class="text-start p-1 line-through opacity-50">Rp 135.000</p>
+                        <p class="text-start p-1 text-3xl text-orange-500 font-bold">Rp 75.000</p>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/disk.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Disk</p>
+                                <h3 class="text-start font-bold">25 GB</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/bandwidth.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Bandwith</p>
+                                <h3 class="text-start font-bold">Unlimited</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/cpu.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Core CPU</p>
+                                <h3 class="text-start font-bold">1 Core</h3>
+                            </div>
+                        </div>
+                        <div class="flex gap-x-4 my-5">
+                            <img class="h-9 w-auto text-center my-auto" src="{{asset('/assets/addon.webp')}}" alt="disk-img">
+                            <div class="flex flex-col">
+                                <p>Addon / parked domain</p>
+                                <h3 class="text-start font-bold">Unlimited</h3>
+                            </div>
+                        </div>
+                        <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 px-12 m-2">Pesan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="layanan">
+            <div class="bg-orange-50 flex justify-center items-center">
+                <div class="flex flex-col justify-center items-center my-14 gap-y-10">
+                    <h1 class="text-4xl font-bold">Lihat Juga Layanan Kami Yang Lain</h1>
+                    <p class="text-normal w-[50%] font-extralight text-center">Optimalkan performa website bisnis Anda dengan berbagai layanan berkualitas dari Qwords</p>
+                    <div class="flex gap-x-7">
+                        <div class="flex flex-col gap-y-4 p-3 rounded-3xl shadow-2xl w-[400px] bg-white">
+                            <h3 class="text-start p-1 flex justify-start items-center gap-x-2 font-semibold text-xl"><span><img src="{{asset('/assets/ssl.webp')}}" alt=""></span>SSL</h3>
+                            <h1 class="text-start p-1 text-normal">Jadikan website Anda lebih terpercaya dan disukai oleh search engine dengan menggunakan SSL Certificate.</h1>
+                            <p class="text-start p-1">Mulai dari</p>
+                            <p class="text-start p-1"><span class="text-orange-500 font-bold text-3xl">Rp. 112.000</span> / tahun</p>
+                            <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 m-2">Pesan Sekarang</button>
+                        </div>
+                        <div class="flex flex-col gap-y-4 p-3 rounded-3xl shadow-2xl w-[400px] bg-white">
+                            <h3 class="text-start p-1 flex justify-start items-center gap-x-2 font-semibold text-xl"><span><img src="{{asset('/assets/dbstack.webp')}}" alt=""></span>Dedicated Server</h3>
+                            <h1 class="text-start p-1 text-normal">Nikmati kelola Dedicated Server sendiri dengan akses remote dari seluruh dunia tanpa batas</h1>
+                            <p class="text-start p-1">Mulai dari</p>
+                            <p class="text-start p-1"><span class="text-orange-500 font-bold text-3xl">Rp. 499.000</span> / bulan</p>
+                            <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 m-2">Pesan Sekarang</button>
+                        </div>
+                        <div class="flex flex-col gap-y-4 p-3 rounded-3xl shadow-2xl w-[400px] bg-white">
+                            <h3 class="text-start p-1 flex justify-start items-center gap-x-2 font-semibold text-xl"><span><img src="{{asset('/assets/disk.webp')}}" alt=""></span>Colocation Server</h3>
+                            <h1 class="text-start p-1 text-normal">Akses cepat dari seluruh dunia dengan fasilitas 24x7 full monitoring dengan cooling system terbaik serta fire extinguisher</h1>
+                            <p class="text-start p-1">Mulai dari</p>
+                            <p class="text-start p-1"><span class="text-orange-500 font-bold text-3xl">Rp. 500.000</span> / bulan</p>
+                            <button class="text-lg font-semibold text-white bg-orange-500 rounded-2xl py-1 m-2">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="solution">
+            <div class="flex flex-col justify-center items-center my-14">
+                <div class="flex flex-col justify-center items-center gap-y-5">
+                    <h1 class="text-4xl font-bold">Solusi Paket Hosting Terbaik dari Kami</h1>
+                    <p class="w-[50%] text-center font-extralight">Kami menawarkan solusi paket hosting terbaik untuk segala kebutuhan website dan sistem Anda. Mulai dari blog hingga website bisnis dan perusahaan</p>
+                </div>
+                <div class="my-5 grid grid-cols-3 gap-6 mb-4">
+                    <div class="relative bg-orange-500 rounded-3xl text-white">
+                        <img src="{{ asset('/assets/company.webp') }}" alt="company-img" class="w-[400px] h-auto rounded-3xl">
+                        <div class="absolute flex flex-col gap-y-3 top-0 left-0 p-3">
+                            <h1 class="font-bold text-xl">Perusahaan</h1>
+                            <p class="font-extralight text-sm w-64">
+                                Wujudkan website perusahaan profesional dan berkelas dengan dukungan web hosting terbaik dan fitur keamanan ekstra
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative bg-orange-500 rounded-3xl text-white">
+                        <img src="{{ asset('/assets/umkm.webp') }}" alt="company-img" class="w-[400px] h-auto rounded-3xl">
+                        <div class="absolute flex flex-col gap-y-3 top-0 left-0 p-3">
+                            <h1 class="font-bold text-xl">UMKM dan Toko Online</h1>
+                            <p class="font-extralight text-sm w-64">
+                                Memberikan hosting terbaik untuk mendukung kebutuhan website pemasaran barang/jasa secara online.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative bg-orange-500 rounded-3xl text-white">
+                        <img src="{{ asset('/assets/orgs.webp') }}" alt="company-img" class="w-[400px] h-auto rounded-3xl">
+                        <div class="absolute flex flex-col gap-y-3 top-0 left-0 p-3">
+                            <h1 class="font-bold text-xl">Organisasi dan Komunitas</h1>
+                            <p class="font-extralight text-sm w-64">
+                                Bikin website organisasi atau komunitas Anda dengan paket hosting unggulan yang ramah kantong.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative bg-orange-500 rounded-3xl text-white">
+                        <img src="{{ asset('/assets/school.webp') }}" alt="company-img" class="w-[400px] h-auto rounded-3xl">
+                        <div class="absolute flex flex-col gap-y-3 top-0 left-0 p-3">
+                            <h1 class="font-bold text-xl">Sekolah</h1>
+                            <p class="font-extralight text-sm w-64">
+                                Infrastruktur web hosting terbaik untuk menunjang kegiatan e-learning. Didukung platform MOODLE khusus pembelajaran daring
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative bg-orange-500 rounded-3xl text-white">
+                        <img src="{{ asset('/assets/dev.webp') }}" alt="company-img" class="w-[400px] h-auto rounded-3xl">
+                        <div class="absolute flex flex-col gap-y-3 top-0 left-0 p-3">
+                            <h1 class="font-bold text-xl">Developer</h1>
+                            <p class="font-extralight text-sm w-64">
+                                Tersedia paket hosting Indonesia dengan spesifikasi khusus yang dev-friendly. Ekstra NodeJS dan Git Version Control
+                            </p>
+                        </div>
+                    </div>
+                    <div class="relative bg-orange-500 rounded-3xl text-white">
+                        <img src="{{ asset('/assets/blog.webp') }}" alt="company-img" class="w-[400px] h-auto rounded-3xl">
+                        <div class="absolute flex flex-col gap-y-3 top-0 left-0 p-3">
+                            <h1 class="font-bold text-xl">Blogger dan Personal</h1>
+                            <p class="font-extralight text-sm w-64">
+                                Memfasilitasi blogger dengan infrastruktur hosting Indonesia terbaik serta template website premium untuk tampil lebih profesional
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="komitmen">
+            <div class="flex flex-col justify-center items-center my-16 ">
+                <div class="flex flex-col justify-center items-center gap-y-6">
+                    <h1 class="text-4xl font-bold">Komitmen Qwords</h1>
+                    <p class="font-extralight">Berbagai alasan mengapa pelanggan memilih sewa hosting di Qwords</p>
+                </div>
+                <div class="grid grid-cols-3 gap-10 mt-14 mb-9">
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/call.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Layanan 24/7</h1>
+                        <p class="font-extralight">Tim Technical Support dan Customer Service Qwords siap membantu Anda selama 24 jam, 7 hari. Anda dapat menghubungi melalui Live chat, Call Center, dan Support Ticket.</p>
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/book.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Panduan Manual Lengkap</h1>
+                        <p class="font-extralight">Qwords dilengkapi dengan halaman knowledge base berisi tutorial dan tips seputar pengelolaan website dan hosting. Dapat diakses dengan mudah dan solutif</p>
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/router.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Up time 99.99%</h1>
+                        <p class="font-extralight">Uptime Network & Server di atas 99. 99% dengan konfigurasi server yang tepat. Didukung manajemen jaringan dan multiple upstream tier 1 provider network serta multiple peering.</p>
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/guard.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Jaminan keamanan</h1>
+                        <p class="font-extralight">Keamanan menjadi fokus utama kami di Qwords. Tindakan pemantauan dan pencegahan yang berstandar & berkelanjutan telah menjadi perhatian utama kami.</p>
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/networkAlt.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Clustered DNS</h1>
+                        <p class="font-extralight">DNS Server Cloud Hosting Qwords terhubung satu dengan yang lainnya. Hal ini membuat DNS Server akan selalu dapat di akses karena saling membackup antar server.</p>
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/diamond.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">High Enterprise Server</h1>
+                        <p class="font-extralight">Standar server Qwords adalah server kelas enterprise Dual Xeon Octa Core yang merupakan hardware kelas terbaik. Hardware ini biasa digunakan oleh perusahaan terkemuka.</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-10">
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/router.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Tier 1 Network</h1>
+                        <p class="font-extralight">Tier 1 Network merupakan jaringan dunia tanpa transit network, yang membuat jaringan lebih cepat serta jalur routing yang lebih pendek dan ketersediaan backup network.</p>
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-[400px] bg-orange-100 rounded-3xl p-5 gap-y-2 shadow-md">
+                        <img src="{{asset('/assets/network.webp')}}" alt="call-img">
+                        <h1 class="font-bold text-xl">Peering Network</h1>
+                        <p class="font-extralight">Jaringan di Qwords terhubung langsung ke public peering seperti OpenIXP dan CDIX yang membuat latency atau waktu tunggu pengiriman data semakin kecil.</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
