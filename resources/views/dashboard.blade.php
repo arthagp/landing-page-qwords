@@ -66,23 +66,28 @@
     </header>
     <main>
         <section id="hero-section">
-            <div class="max-w-[950px] flex justify-center flex-col gap-10 text-center mx-auto py-10 m">
-                <h1 class="mt-10 font-extrabold text-7xl">Cloud Hosting Indonesia
-                    untuk <span class="text-orange-500">Kesuksesan</span> Websitemu!
-                </h1>
-                <p class="px-10 mx-10">Qwords menawarkan layanan Cloud Hosting Akses Cepat, Standar Keamanan Tinggi, Uptime Server 99,99%, Fitur Lengkap dan Dukungan Pelanggan 24 jam untuk memenuhi kebutuhan website Anda.
-                    Tersertifikasi ISO 27001 dengan Data Center Tier 3 dan Network Tier 1
-                </p>
-                <div class="flex justify-center gap-x-2">
-                    <img src="{{ asset('/assets/akreditasi.webp') }}" alt="akreditasi-ICANN" class="max-w-full h-24">
-                    <img src="{{ asset('/assets/bsi.webp') }}" alt="akreditasi-BSI" class="max-w-full h-24">
-                    <img src="{{ asset('/assets/akreditasi-id.webp') }}" alt="akreditasi-ID" class="max-w-full h-24">
+            <div class="relative">
+                <div class="bg-hero">
+
                 </div>
-                <button class="max-w-[350px] mx-auto bg-orange-500 font-semibold text-2xl text-white py-3 px-6 rounded-3xl">Cek Domain Dulu</button>
+                <div class="max-w-[950px] flex justify-center flex-col gap-10 text-center mx-auto py-10">
+                    <h1 class="mt-10 font-extrabold text-7xl">Cloud Hosting Indonesia
+                        untuk <span class="text-orange-500">Kesuksesan</span> Websitemu!
+                    </h1>
+                    <p class="px-10 mx-10">Qwords menawarkan layanan Cloud Hosting Akses Cepat, Standar Keamanan Tinggi, Uptime Server 99,99%, Fitur Lengkap dan Dukungan Pelanggan 24 jam untuk memenuhi kebutuhan website Anda.
+                        Tersertifikasi ISO 27001 dengan Data Center Tier 3 dan Network Tier 1
+                    </p>
+                    <div class="flex justify-center gap-x-2">
+                        <img src="{{ asset('/assets/akreditasi.webp') }}" alt="akreditasi-ICANN" class="max-w-full h-24">
+                        <img src="{{ asset('/assets/bsi.webp') }}" alt="akreditasi-BSI" class="max-w-full h-24">
+                        <img src="{{ asset('/assets/akreditasi-id.webp') }}" alt="akreditasi-ID" class="max-w-full h-24">
+                    </div>
+                    <button class="max-w-[350px] mx-auto bg-orange-500 font-semibold text-2xl text-white py-3 px-6 rounded-3xl">Cek Domain Dulu</button>
+                </div>
             </div>
         </section>
         <section id="cek-domain">
-            <div class="flex justify-center flex-col text-center bg-orange-500 py-10 my-32 text-white gap-5">
+            <div class="flex justify-center flex-col text-center bg-orange-500 py-10 mb-32 text-white gap-5">
                 <h1 class="font-bold text-3xl">Cari Nama Domainmu</h1>
                 <p class="max-w-[550px] mx-auto text-center">Nama Domain digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling mencerminkan bisnis, produk, atau layanan Anda.</p>
                 <div class="flex justify-center items-center gap-x-4 text-black">
@@ -461,6 +466,58 @@
             <div class="flex flex-col justify-center items-center my-32 max-w-[1100px] mx-auto gap-y-10">
                 <h1 class="text-4xl font-bold">Apa Kata Mereka?</h1>
                 <p class="w-[50%] font-extralight text-sm text-center">Apa kata mereka yang sudah menggunakan layanan web hosting Indonesia dari Qwords? Simak pengalaman mereka yang telah membuktikan sendiri fitur dari layanan kami.</p>
+                <div class="flex justify-center items-center gap-x-5">
+                    <div class="w-[50%] flex flex-col gap-y-3">
+                        <p class="quote font-medium text-lg">Semoga Qwords dapat terus bertahan, sehingga kami dan masyarakat Indonesia bisa mendapatkan layanan yang terbaik dari Qwords.</p>
+                        <div class="flex gap-x-5">
+                            <span class="border-l-4 border-orange-500"></span>
+                            <em class="opacity-50 text">Kami, ID Cert, merupakan sebuah perusahaan yang bergerak dalam bidang penyedia jasa informasi keamanan di Indonesia. Oleh karena itu, kami membutuhkan Qwords untuk mendukung kebutuhan kami terhadap server dan hosting yang selalu up selama 24 jam.</em>
+                        </div>
+                        <div class="flex gap-x-5">
+                            <p>Budi Raharjo</p>
+                            <p class="opacity-50 font-extralight">Founder ID Cert</p>
+                        </div>
+                        <a class="flex font-semibold text-orange-500" href="#">Lihat Video Selengkapnya <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt=""></span></a>
+                    </div>
+                    <div class="w-[50%] flex justify-center items-center  mx-auto">
+                        <img class="w-[70%]" src="{{asset('/assets/testi1.webp')}}" alt="budi-raharjo-img">
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-x-5">
+                    <div class="w-[50%] flex justify-center items-center  mx-auto">
+                        <img class="w-[70%]" src="{{asset('/assets/testi2.webp')}}" alt="budi-raharjo-img">
+                    </div>
+                    <div class="w-[50%] flex flex-col gap-y-3">
+                        <p class="quote font-medium text-lg">Pelayanan Qwords sangat cepat dan responsif, sehingga tidak butuh waktu lama untuk membantu website kami kembali normal. Terbaik pokoknya, mah!</p>
+                        <div class="flex gap-x-5">
+                            <span class="border-l-4 border-orange-500"></span>
+                            <em class="opacity-50 text">Sebagai media penyedia kabar seputar kota Bandung, Info BDG menggunakan website sebagai rumah informasi. Website kami yang sempat down kini menunjukkan traffic yang tinggi setelah menggunakan dukungan dari Qwords.
+                            </em>
+                        </div>
+                        <div class="flex gap-x-5">
+                            <p>Kuns Kurniawan</p>
+                            <p class="opacity-50 font-extralight">PR Event Info BDG</p>
+                        </div>
+                        <a class="flex font-semibold text-orange-500" href="#">Lihat Video Selengkapnya <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt=""></span></a>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center gap-x-5">
+                    <div class="w-[50%] flex flex-col gap-y-3">
+                        <p class="quote font-medium text-lg">Hingga saat ini pula, kami tidak pernah menemukan masalah yang berarti dari layanan yang diberikan Qwords. Layanan Customer Service yang sangat baik, membuat kami tidak ingin berpindah dari Qwords.</p>
+                        <div class="flex gap-x-5">
+                            <span class="border-l-4 border-orange-500"></span>
+                            <em class="opacity-50 text">Penjualan Rumah Kopi Temanggung 90% dilakukan secara online, salah satunya menggunakan website. Semenjak tahun 2015 hingga saat ini, kami menggunakan hosting dan domain dari Qwords.</em>
+                        </div>
+                        <div class="flex gap-x-5">
+                            <p>Denden Sofiudin</p>
+                            <p class="opacity-50 font-extralight">Owner Rumah Kopi temanggung</p>
+                        </div>
+                        <a class="flex font-semibold text-orange-500" href="#">Lihat Video Selengkapnya <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt=""></span></a>
+                    </div>
+                    <div class="w-[50%] flex justify-center items-center  mx-auto">
+                        <img class="w-[70%]" src="{{asset('/assets/testi3.webp')}}" alt="budi-raharjo-img">
+                    </div>
+                </div>
             </div>
         </section>
         <section id="liputan-payment">
@@ -484,10 +541,223 @@
                 <a class="flex font-semibold text-orange-500" href="#">Lihat Panduan Pembayaran <span class="ml-4"><img class="w-[50%]" src="{{asset('/assets/Right.webp')}}" alt="right-img"></span></a>
             </div>
         </section>
+        <section>
+            <div class="flex flex-col justify-center items-center my-32 gap-y-5">
+                <h1 class="text-4xl font-bold w-[800px] text-center mb-10">Pertanyaan seputar <span class="text-orange-500">Layanan Web Hosting</span> Qwords</h1>
+                <div class="flex justify-between items-center mx-5 w-[1100px] p-4 border rounded-xl">
+                    <h3 class="text-black font-semibold text-lg">Apa itu web hosting?</h3>
+                    <div class="w-10 h-10 rounded-full bg-orange-100 flex justify-center items-center">
+                        <img class="w-[50%]" src="{{asset('/assets/vcollapse2x.png')}}" alt="collapse">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center mx-5 w-[1100px] p-4 border rounded-xl">
+                    <h3 class="text-black font-semibold text-lg">Ada berapa jenis hosting di Qwords?</h3>
+                    <div class="w-10 h-10 rounded-full bg-orange-100 flex justify-center items-center">
+                        <img class="w-[50%]" src="{{asset('/assets/vcollapse2x.png')}}" alt="collapse">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center mx-5 w-[1100px] p-4 border rounded-xl">
+                    <h3 class="text-black font-semibold text-lg">Apa kelebihan dari cloud hosting Qwords?</h3>
+                    <div class="w-10 h-10 rounded-full bg-orange-100 flex justify-center items-center">
+                        <img class="w-[50%]" src="{{asset('/assets/vcollapse2x.png')}}" alt="collapse">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center mx-5 w-[1100px] p-4 border rounded-xl">
+                    <h3 class="text-black font-semibold text-lg">Mengapa saya perlu web hosting?</h3>
+                    <div class="w-10 h-10 rounded-full bg-orange-100 flex justify-center items-center">
+                        <img class="w-[50%]" src="{{asset('/assets/vcollapse2x.png')}}" alt="collapse">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center mx-5 w-[1100px] p-4 border rounded-xl">
+                    <h3 class="text-black font-semibold text-lg">Bagaimana cara membeli hosting?</h3>
+                    <div class="w-10 h-10 rounded-full bg-orange-100 flex justify-center items-center">
+                        <img class="w-[50%]" src="{{asset('/assets/vcollapse2x.png')}}" alt="collapse">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center mx-5 w-[1100px] p-4 border rounded-xl">
+                    <h3 class="text-black font-semibold text-lg">Apakah saya bisa transfer Hosting ke Qwords Cloud Web Hosting Indonesia?</h3>
+                    <div class="w-10 h-10 rounded-full bg-orange-100 flex justify-center items-center">
+                        <img class="w-[50%]" src="{{asset('/assets/vcollapse2x.png')}}" alt="collapse">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bantuan">
+            <div class="bg-bantuan mt-32">
+                <div class="flex flex-col justify-center items-center gap-y-5 p-16">
+                    <h1 class="font-bold text-5xl">Butuh <span class="text-orange-500">Bantuan?</span></h1>
+                    <p class="font-extralight">Kami siap membantu anda 24 Jam</p>
+                    <div class="flex justify-center items-center gap-x-5">
+                        <div class="flex justify-center items-center text-orange-500">
+                            <div class="flex rounded-2xl border border-orange-400 py-2 px-7 cursor-pointer gap-x-3"><span><img src="{{asset('/assets/phoneAlt.svg')}}" alt="phone-icon"></span>
+                                <p class="my-auto">0804-1-808-888</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center text-orange-500">
+                            <div class="flex rounded-2xl border border-orange-400 py-2 px-7 cursor-pointer gap-x-3"><span><img src="{{asset('/assets/phoneAlt.svg')}}" alt="phone-icon"></span>
+                                <p class="my-auto">021 39708800</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center text-orange-500">
+                            <div class="flex rounded-2xl border border-orange-400 py-2 px-7 cursor-pointer gap-x-3"><span><img src="{{asset('/assets/waAlt.svg')}}" alt="phone-icon"></span>
+                                <p class="my-auto">+6281 7437 111 ( WhatsApp only )</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center text-orange-500">
+                            <div class="flex rounded-2xl border border-orange-400 py-2 px-7 cursor-pointer gap-x-3"><span><img src="{{asset('/assets/emailAlt.svg')}}" alt="phone-icon"></span>
+                                <p class="my-auto">info@qwords.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="p-5 flex flex-col bg-black text-white">
+            <div class="p-10 flex justify-center gap-10">
+                <div class="w-[25%] flex flex-col gap-y-10">
+                    <div class="flex flex-col gap-y-3">
+                        <img class="w-[150px]" src="{{asset('/assets/logo-dark.webp')}}" alt="logo-qword-dark" srcset="">
+                        <p class="font-bold text-xl ">PT Qwords Company International</p>
+                        <p class="font-extralight">Cloud Web Hosting Indonesia. Domain & hosting terbaik dengan akses cepat yang didukung layanan support 24/7</p>
+                        <img class="w-[50%]" src="{{asset('/assets/bsi-white.webp')}}" alt="bsi-logo">
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-lg mb-3">Customer Care</h1>
+                        <ul class="flex flex-col gap-y-2">
+                            <li><a href="https://qwords.com/v2/order-payment">Pembayaran</a></li>
+                            <li><a href="https://qwords.com/v2/permintaan-faktur-pajak">Faktur Pajak</a></li>
+                            <li><a href="https://portal.qwords.com/submitticket.php">Bantuan 24 jam</a></li>
+                            <li><a href="https://qwords.com/v2/qwords-rewards">Qwords Rewards</a></li>
+                            <li><a href="https://kb.qwords.com">Knowledge Base</a></li>
+                            <li><a href="https://qwords.com/blog">Blog</a></li>
+                            <li><a href="https://qwords.com/v2/faq">FAQ</a></li>
+                            <li><a href="https://qwords.com/v2/about-qwordscom/contact-qwordscom">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-[25%] flex flex-col gap-y-10">
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Mengenai Kami</h4>
+                        <ul class="flex flex-col gap-y-2">
+                            <li><a href="https://qwords.co.id">Corporate Website</a></li>
+                            <li><a href="https://qwords.com/v2/about-qwordscom/history/">Qwords History</a></li>
+                            <li><a href="https://qwords.com/v2/about-qwordscom/difference/">Qwords Differences</a></li>
+                            <li><a href="https://qwords.com/v2/media-publication">Media Publication</a></li>
+                            <li><a href="https://qwords.com/v2/about-qwordscom/network/">Network & Infrastructure</a></li>
+                            <li><a href="https://qwords.com/v2/about-qwordscom/partner/">Partner</a></li>
+                            <li><a href="https://qwords.com/v2/karir">Career & Employment</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">MSA/SLA/AUP</h4>
+                        <ul class="flex flex-col gap-y-2">
+                            <li><a href="https://qwords.com/v2/master-service-agreement">Master Service Agreement</a></li>
+                            <li><a href="https://qwords.com/v2/master-service-agreement/refund-policy">Refund Policy</a></li>
+                            <li><a href="https://qwords.com/v2/master-service-agreement/privacy-policy/">Privacy Policy</a></li>
+                            <li><a href="https://qwords.com/v2/master-service-agreement/product-life-cycle-policy/">Product Life Cycle Policy</a></li>
+                            <li><a href="https://qwords.com/v2/about-qwordscom/penggunaan-merek-dan-logo">Penggunaan Merek dan Logo</a></li>
+                            <li><a href="https://qwords.com/v2/migrasi-pelanggan">Migrasi Ke Qwords</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-[25%] flex flex-col gap-y-10">
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Layanan Lainnya</h4>
+                        <ul class="flex flex-col gap-y-2">
+                            <li><a href="https://qwords.com/v2/services/extended-support">Extended Support</a></li>
+                            <li><a href="https://qwords.com/v2/manage-the-box-dedicated-colocation-server">Manage The Box Server</a></li>
+                            <li><a href="https://qwords.com/v2/flexi-main-domain">Flexi Main Domain</a></li>
+                            <li><a href="https://qwords.com/v2/ftp-backup">FTP Backup</a></li>
+                            <li><a href="https://qwords.com/v2/services/offline-backup">Offline Backup</a></li>
+                            <li><a href="https://qwords.com/v2/services/hosting-insurance">Hosting Insurance</a></li>
+                            <li><a href="https://qwords.com/v2/licenses">Software License</a></li>
+                            <li><a href="https://qwords.com/v2/services/digital-signature">Digital Signature</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Layanan Reseller</h4>
+                        <ul class="flex flex-col gap-y-2">
+                            <li><a href="https://qwords.com/v2/afiliasi">Afiliasi</a></li>
+                            <li><a href="https://qwords.com/v2/qwordscom-package-reseller">Qwords VIP Partner</a></li>
+                            <li><a href="https://qwords.com/v2/private-label-hosting-reseller">Private Label Hosting Reseller</a></li>
+                            <li><a href="https://qwords.com/v2/private-label-domain-reseller">Private Label Domain Reseller</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Free Tools</h4>
+                        <ul class="flex flex-col gap-y-2">
+                            <li><a href="https://link.share.web.id/">Qwords Link-Q</a></li>
+                            <li><a href="https://wa.share.web.id/">WhatsApp Link Generator</a></li>
+                            <li><a href="https://qwords.info/">Network Tools</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-[25%] flex flex-col gap-y-10">
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Kantor Surabaya</h4>
+                        <p>Gedung Bursa Efek Indonesia Lt.10, Jl. Taman AIS Nasution No.21, Surabaya 60271 - Indonesia 031 30008800
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Kantor Yogyakarta</h4>
+                        <p>Jl. Blotan no. 18 Kayen Wedomartani, Ngemplak, Sleman, Yogyakarta 55584 - Indonesia 0274 6058800
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Kantor Jakarta</h4>
+                        <p>Gedung Cyber 1 Lantai 3, Jl.Kuningan Barat no.8, Jakarta 12710 - Indonesia 021 39708800
+                        </p>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-3">Kantor Bandung</h4>
+                        <p>Jl. Terusan Setra Indah I No.19, Sukagalih, Sukajadi, Bandung 40163 - Indonesia 022 30508800
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p-10 flex flex-col gap-y-10">
+                <h3 class="font-bold text-3xl">Terdaftar di PSE, ICANN dan Partner Lainnya</h3>
+                <div class="flex gap-4">
+                    <a href="https://pse.kominfo.go.id/tdpse-detail/1447" class="flex items-center">
+                        <img src="{{ asset('/assets/code.webp') }}" alt="qr-code-img" class="w-20 h-20">
+                    </a>
+                    <a href="https://www.icann.org/en/accredited-registrars?sort-direction=asc&sort-param=name&page=1&iana-number=4029&view-all=true" class="flex-shrink-0">
+                        <img src="{{ asset('/assets/akreditasi.webp') }}" alt="akreditasi-icann" class="w-24 h-24">
+                    </a>
+                    <img src="{{ asset('/assets/badge_litespeed.svg') }}" alt="ltespeed-logo" class="w-24 h-24">
+                    <img src="{{ asset('/assets/badge_whmadmin.svg') }}" alt="akreditasi-icann" class="w-24 h-24">
+                    <img src="{{ asset('/assets/acronis-cloud-tech.webp') }}" alt="akreditasi-icann" class="w-24 h-24">
+                    <img src="{{ asset('/assets/acronis-cloud-sales.webp') }}" alt="akreditasi-icann" class="w-24 h-24">
+                </div>
+            </div>
+            <div class="p-5 flex flex-col justify-center items-center gap-y-5">
+                <div class="flex justify-center items-center gap-x-5">
+                    <img class="w-8 h-8" src="{{ asset('/assets/Facebook.webp') }}" alt="fb-logo">
+                    <img class="w-8 h-8" src="{{ asset('/assets/Instagram.webp') }}" alt="fb-logo">
+                    <img class="w-8 h-8" src="{{ asset('/assets/Twitter.webp') }}" alt="fb-logo">
+                    <img class="w-8 h-8" src="{{ asset('/assets/Youtube.webp') }}" alt="fb-logo">
+                </div>
+                <h4>Copyright &copy; PT. Qwords Company International</h4>
+                <h4 class="text-sm font-extralight">Redesign by artha gusfi putra</h4>
+            </div>
+        </div>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const header = document.querySelector('header');
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 0) {
+                    header.classList.add('header-shadow');
+                } else {
+                    header.classList.remove('header-shadow');
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
